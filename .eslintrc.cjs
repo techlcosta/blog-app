@@ -3,7 +3,12 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['standard-with-typescript', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'prettier'],
+  extends: [
+    'standard-with-typescript',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'prettier'
+  ],
   ignorePatterns: ['.eslintrc.cjs', 'vite.config.ts', '*.d.ts'],
   overrides: [
     {
@@ -19,6 +24,11 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   },
   plugins: ['react', 'react-refresh'],
   parser: '@typescript-eslint/parser',
