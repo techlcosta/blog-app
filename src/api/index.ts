@@ -1,6 +1,6 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: 'https://api.techlcosta.dev/api',
+  baseURL: 'http://0.0.0.0:3330/api',
   withCredentials: true
 })
