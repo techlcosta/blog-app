@@ -12,10 +12,6 @@ dist
 dist-ssr
 *.local
 .env
-<<<<<<< HEAD
-=======
-
->>>>>>> f2f7f3d (add docker configs)
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
